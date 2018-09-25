@@ -81,8 +81,8 @@
 
       left.controller.add("default","Navigation","Next File",() => { left.navi.next_page(); },"CmdOrCtrl+Shift+]");
       left.controller.add("default","Navigation","Prev File",() => { left.navi.prev_page(); },"CmdOrCtrl+Shift+[");
-      left.controller.add("default","Navigation","Next Marker",() => { left.navi.next_marker(); },"CmdOrCtrl+]");
-      left.controller.add("default","Navigation","Prev Marker",() => { left.navi.prev_marker(); },"CmdOrCtrl+[");
+      left.controller.add("default","Navigation","Next Marker",() => { left.navi.next_marker(); },"CmdOrCtrl+J");
+      left.controller.add("default","Navigation","Prev Marker",() => { left.navi.prev_marker(); },"CmdOrCtrl+K");
 
       left.controller.add("default","View","Toggle Dark Mode",() => {  left.theme.toggle() },"CmdOrCtrl+Shift+T");
       left.controller.add("default","View","Toggle Navigation",() => {  left.navi.toggle() },"CmdOrCtrl+\\");
@@ -112,7 +112,6 @@
 
       left.controller.add("insert","*","About",() => { require('electron').shell.openExternal('https://github.com/hundredrabbits/Left'); },"CmdOrCtrl+,");
       left.controller.add("insert","*","Fullscreen",() => { app.toggle_fullscreen(); },"CmdOrCtrl+Enter");
-      left.controller.add("insert","*","Hide",() => { app.toggle_visible(); },"CmdOrCtrl+H");
       left.controller.add("insert","*","Inspect",() => { app.inspect(); },"CmdOrCtrl+.");
       left.controller.add("insert","*","Reset",() => { left.theme.reset(); },"CmdOrCtrl+Backspace");
       left.controller.add("insert","*","Quit",() => { left.project.quit(); },"CmdOrCtrl+Q");
