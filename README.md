@@ -8,17 +8,12 @@
 
 View the [guide](https://100r.co/blog.html#left)
 
-## Install
+## About this fork
 
-```
-cd desktop
-npm install
-npm start
-```
+This fork only applies minor changes to the original repository:
 
-## Extras
+* Bigger font (12px -> 14px)
+* Vim-like shortcuts for navigating sections (ctrl+j, ctrl+k)
+* Hide mode disabled (formerly ctrl+h)
 
-- This application supports the [Ecosystem Theme](https://github.com/hundredrabbits/Themes).
-- Support this project through [Patreon](https://patreon.com/100).
-- See the [License](LICENSE.md) file for license rights and limitations (MIT).
-- Pull Requests are welcome!
+The app is also already packaged for Linux with an [AppImage](https://github.com/Ovelny/Left/releases)
